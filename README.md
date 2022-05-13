@@ -1,4 +1,4 @@
-<img src="https://github.com/githukelvin/stats-component-card/blob/main/projec.png"></img>
+<img src="https://github.com/githukelvin/sunnyside-landing-page/blob/main/project-preview.png"></img>
 
 
 <h1 align="center">Sunnyside landing page </h1>
