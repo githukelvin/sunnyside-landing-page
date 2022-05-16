@@ -13,7 +13,7 @@ body{
 }
 header{
   width: 100%;
-  height: 97vh;
+  height: 100vh;
   background-image: url(images/desktop/image-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ header{
   justify-content: space-between;
 }
 .pri-nav{
-  margin-right: 100px;
+  margin-right: 200px;
 }
 .pri-nav li{
   text-decoration: none;
@@ -45,16 +45,7 @@ header{
   font-size: 18px;
   
 }
-.pri-nav li a:hover{
-  border: none;
-  box-sizing: border-box;
-  border-radius: 20px;
-  width: 250px;
-  height: 150px;
-  background-color:  hsl(210, 4%, 67%);
-  font-family: 'Fraunces',sans-serif;
-  font-weight: 900;
-}
+
 label .logo{
   padding: 40px 80px;
 }
@@ -66,6 +57,40 @@ header h1{
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 90px;
+}
+li.contact{
+  list-style: none;
+}
+.contact a{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  list-style: none;
+  box-sizing: border-box;
+  padding-top: 20px;
+  right: 30px;
+  top: 20px;
+  width: 150px;
+  height: 60px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 40px;
+}
+
+.contact a:hover{
+  color: hsl(0, 0%, 100%);
+  background-color: #6fd0fa;
+}
+.contact a{
+  
+  padding-left: 10px;
+  color:hsl(212, 27%, 19%); 
+  font-family: 'Fraunces',sans-serif;
+  font-size: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+
 }
 .arrow{
   padding-top: 100px;
@@ -106,7 +131,7 @@ main{
   width: 100px;
   cursor: pointer;
 }
-.left-1 h6:hover{
+.left-1 h6 a:hover{
   /*
  text-decoration: underline;
  text-decoration-color: hsl(51, 100%, 49%);
@@ -121,6 +146,10 @@ main{
  border-bottom-left-radius: 5px;
  border-bottom: 10px solid hsl(51, 100%, 49%);
  border-spacing: 0px;
+}
+h6 a{
+  text-decoration: none;
+  color: hsl(212, 27%, 19%);
 }
 .div1,.div2{
   display: grid;
@@ -186,10 +215,13 @@ main{
 }
 .img1{
   height: 600px;
-  width: 800px;
+  width: 795px;
 }
 .div1{
   grid-column-gap: 185px;
+}
+.testmonials{
+  margin-left: 100px;
 }
 .testmonials h2{
   color: hsl(210, 4%, 67%);
@@ -367,7 +399,7 @@ footer h1{
   color: hsl(210, 4%, 67%);
   text-align: center;
   padding-bottom: 45px;
-  padding-left: 7%;
+  padding-left: 3%;
   line-height: 1.5; 
   }
   .left-1-mobile h6,.right-2-mobile h6{
@@ -444,6 +476,7 @@ footer h1{
 
 .testmonials{
   display: block;
+  margin-left: 0;
 }
 .testmonials h2{
   font-size: 18px;
