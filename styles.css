@@ -74,15 +74,7 @@ li.contact{
   height: 60px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 40px;
-}
-
-.contact a:hover{
-  color: hsl(0, 0%, 100%);
-  background-color: #6fd0fa;
-}
-.contact a{
-  
-  padding-left: 10px;
+    padding-left: 10px;
   color:hsl(212, 27%, 19%); 
   font-family: 'Fraunces',sans-serif;
   font-size: 2px;
@@ -90,7 +82,11 @@ li.contact{
   text-decoration: none;
   font-size: 18px;
   text-align: center;
+}
 
+.contact a:hover{
+  color: hsl(0, 0%, 100%);
+  background-color: #6fd0fa;
 }
 .arrow{
   padding-top: 100px;
